@@ -21,9 +21,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     font-family: ;
-    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
-      rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
-    /*background-color: #eeeeee;*/
+    
 }
 
 .input-group, .form-control, .input-group-append{
@@ -60,6 +58,19 @@ input{
     
 }
 
+.past {
+    background-color: rgb(180, 180, 180);
+}
+
+.current{
+    background-color:rgb(245, 39, 39);
+
+}
+
+.future{
+    background-color:rgb(50, 163, 50);
+
+}
 
 @media (max-width: 576px){
 
@@ -88,6 +99,7 @@ input{
     }
 
 }
+
 
 
 
