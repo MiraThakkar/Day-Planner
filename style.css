@@ -35,7 +35,7 @@ h2{
 
 .input-group, .form-control, .input-group-append{
 
-    height: auto;
+    height: 40px;
 
 }
 .input-group-text {
