@@ -20,16 +20,17 @@ body {
     margin: auto;
     width:960px;
     height:auto;
-    font-size: 0rem;
+    font-size: 15px;
     border-radius: 10px;
     padding: 20px;
     font-family: ;
     
     
 }
-h1{
-    color:rgb(255, 94, 0);
-    font-weight: 700;
+h2{
+    color:rgb(114, 114, 113);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .input-group, .form-control, .input-group-append{
@@ -38,14 +39,16 @@ h1{
 
 }
 .input-group-text {
-    width:10%;
+    width:60px;
     background-color:  grey;
     color:white;
+    font-size: 13px;
 }
 
  img {
-    width:40px;
-    height:40px;
+    width:25px;
+    margin:5px;
+    height:20px;
     
     
 }
@@ -53,11 +56,13 @@ h1{
 .btn {
 
     padding: 0;
+    border-bottom-color:#eeeeee;
+    background-color: rgb(161, 161, 161);
     
 }
 
 .btn:hover {
-    background-color: transparent;
+    background-color: rgb(253, 132, 62);
 
 }
 
@@ -67,11 +72,11 @@ input{
 }
 
 .past {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(216, 214, 214);
 }
 
 .current{
-    background-color:rgb(245, 39, 39);
+    background-color:rgb(250, 131, 131);
 
 }
 
@@ -106,12 +111,12 @@ nav.navbar {
 
     .input-group, .form-control, .input-group-append img{
 
-        height: 50px;
+        height: auto;
     
     }
 
     .input-group-text {
-        text-emphasis: wrra;
+        word-break: break-all;
         color: #eeeeee;
         font-size: 10px;
         text-align:start;
